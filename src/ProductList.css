@@ -250,3 +250,28 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+.category-line {
+  width: 25%;
+  margin: 10px auto;
+  border: none;
+  border-top: 3px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+.cart {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: 17px;
+  right: 24px;
+  color: white;
+  font-size: 30px;   
+  font-family: inherit; 
+}
